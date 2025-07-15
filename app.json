@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "StickerSmash",
-    "slug": "StickerSmash",
+    "name": "SocialTherapyMobile",
+    "slug": "SocialTherapyMobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "stickersmash",
+    "scheme": "socialtherapymobile",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -29,6 +29,10 @@
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
+		  "dark": {
+		  	"image": "./assets/images/splash-icon.png",
+			"backgroundColor": "#000000"
+		  },
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
